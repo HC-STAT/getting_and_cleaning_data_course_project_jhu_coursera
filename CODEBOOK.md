@@ -1,0 +1,90 @@
+# Code Book
+This code book describes the details of `tidydata.txt`.
+
+## Identifiers
+* `subject`: ID number of the volunteer ranging from 1 - 30
+* `activity_name`: including 6 specific activities : `WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`
+
+## Features
+We extract only the measurements on the mean and standard deviation for each measurement. 
+
+The measurements are listed below.
+* TimeBodyAccelerationMeanX
+* TimeBodyAccelerationMeanY
+* TimeBodyAccelerationMeanZ
+* TimeBodyAccelerationStandardDeviationX
+* TimeBodyAccelerationStandardDeviationY
+* TimeBodyAccelerationStandardDeviationZ
+* TimeGravityAccelerationMeanX
+* TimeGravityAccelerationMeanY
+* TimeGravityAccelerationMeanZ
+* TimeGravityAccelerationStandardDeviationX
+* TimeGravityAccelerationStandardDeviationY
+* TimeGravityAccelerationStandardDeviationZ
+* TimeBodyAccelerationJerkMeanX
+* TimeBodyAccelerationJerkMeanY
+* TimeBodyAccelerationJerkMeanZ
+* TimeBodyAccelerationJerkStandardDeviationX
+* TimeBodyAccelerationJerkStandardDeviationY
+* TimeBodyAccelerationJerkStandardDeviationZ
+* TimeBodyGyroMeanX
+* TimeBodyGyroMeanY
+* TimeBodyGyroMeanZ
+* TimeBodyGyroStandardDeviationX
+* TimeBodyGyroStandardDeviationY
+* TimeBodyGyroStandardDeviationZ
+* TimeBodyGyroJerkMeanX
+* TimeBodyGyroJerkMeanY
+* TimeBodyGyroJerkMeanZ
+* TimeBodyGyroJerkStandardDeviationX
+* TimeBodyGyroJerkStandardDeviationY
+* TimeBodyGyroJerkStandardDeviationZ
+* TimeBodyAccelerationMagnitudeMean
+* TimeBodyAccelerationMagnitudeStandardDeviation
+* TimeGravityAccelerationMagnitudeMean
+* TimeGravityAccelerationMagnitudeStandardDeviation
+* TimeBodyAccelerationJerkMagnitudeMean
+* TimeBodyAccelerationJerkMagnitudeStandardDeviation
+* TimeBodyGyroMagnitudeMean
+* TimeBodyGyroMagnitudeStandardDeviation
+* TimeBodyGyroJerkMagnitudeMean
+* TimeBodyGyroJerkMagnitudeStandardDeviation
+* FrequencyBodyAccelerationMeanX
+* FrequencyBodyAccelerationMeanY
+* FrequencyBodyAccelerationMeanZ
+* FrequencyBodyAccelerationStandardDeviationX
+* FrequencyBodyAccelerationStandardDeviationY
+* FrequencyBodyAccelerationStandardDeviationZ
+* FrequencyBodyAccelerationMeanFreqX
+* FrequencyBodyAccelerationMeanFreqY
+* FrequencyBodyAccelerationMeanFreqZ
+* FrequencyBodyAccelerationJerkMeanX
+* FrequencyBodyAccelerationJerkMeanY
+* FrequencyBodyAccelerationJerkMeanZ
+* FrequencyBodyAccelerationJerkStandardDeviationX
+* FrequencyBodyAccelerationJerkStandardDeviationY
+* FrequencyBodyAccelerationJerkStandardDeviationZ
+* FrequencyBodyAccelerationJerkMeanFreqX
+* FrequencyBodyAccelerationJerkMeanFreqY
+* FrequencyBodyAccelerationJerkMeanFreqZ
+* FrequencyBodyGyroMeanX
+* FrequencyBodyGyroMeanY
+* FrequencyBodyGyroMeanZ
+* FrequencyBodyGyroStandardDeviationX
+* FrequencyBodyGyroStandardDeviationY
+* FrequencyBodyGyroStandardDeviationZ
+* FrequencyBodyGyroMeanFreqX
+* FrequencyBodyGyroMeanFreqY
+* FrequencyBodyGyroMeanFreqZ
+* FrequencyBodyAccelerationMagnitudeMean
+* FrequencyBodyAccelerationMagnitudeStandardDeviation
+* FrequencyBodyAccelerationMagnitudeMeanFreq
+* FrequencyBodyBodyAccelerationJerkMagnitudeMean
+* FrequencyBodyBodyAccelerationJerkMagnitudeStandardDeviation
+* FrequencyBodyBodyAccelerationJerkMagnitudeMeanFreq
+* FrequencyBodyBodyGyroMagnitudeMean
+* FrequencyBodyBodyGyroMagnitudeStandardDeviation
+* FrequencyBodyBodyGyroMagnitudeMeanFreq
+* FrequencyBodyBodyGyroJerkMagnitudeMean
+* FrequencyBodyBodyGyroJerkMagnitudeStandardDeviation
+* FrequencyBodyBodyGyroJerkMagnitudeMeanFreq
